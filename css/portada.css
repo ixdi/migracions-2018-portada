@@ -39,7 +39,7 @@ body {
 
 .desc-end p {
   color: #fff;
-  padding-top: 12vh;
+  padding-top: 11vh;
   text-align: right;
 }
 
@@ -95,4 +95,8 @@ body {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
   font-size: smaller;
+}
+
+.responsive-embed {
+  padding-bottom: 40vh;
 }
