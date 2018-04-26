@@ -1,0 +1,98 @@
+h1, h5, h6 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+body {
+  background-color: #000;
+}
+
+.quadre-titol {
+  min-height: 10vh;
+  padding: 1rem;
+}
+
+.quadre {
+  height: 20vh;
+}
+.quadre:not(.no-img) {
+  background-size: 60%;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  transition: all .3s ease-in-out;
+  /*filter: blur(1px);*/
+}
+
+.quadre:hover:not(.no-img) {
+  /*filter: blur(0);*/
+  box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+  cursor: pointer;
+  z-index: 1000;
+  background-size: 70%;
+}
+
+.quadre h6 {
+  padding-top: 1rem;
+  padding-left: 1rem;
+  color: #fff;
+}
+
+.desc-end p {
+  color: #fff;
+  padding-top: 12vh;
+  text-align: right;
+}
+
+.other-years {
+  text-align: center;
+}
+
+.other-years a {
+  position: relative;
+  color: #fff;
+  text-align: center;
+  top: 9vh;
+}
+
+.bg-red-0 {
+  background-color: #df0101;
+}
+
+.bg-red-1 {
+    background-color: #fe2e2e;
+}
+
+.bg-red-2 {
+    background-color: #f78181;
+}
+
+.bg-red-3 {
+    background-color: #8a0808;
+}
+
+.bg-red-4 {
+    background-color: #fa5858;
+}
+
+.bg-black {
+  background-color: #000;
+  color: #df0101;
+}
+
+.bg-dark {
+  background-color: #8a0808;
+}
+
+.grid-padding-x>.cell.padding-zero {
+  padding: 0;
+}
+
+.video {
+  height: 40vh;
+}
+
+.llengues {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: smaller;
+}
