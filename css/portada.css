@@ -37,21 +37,52 @@ body {
   color: #fff;
 }
 
+.desc-end {
+  text-align: right;
+}
+
 .desc-end p {
   color: #fff;
-  padding-top: 11vh;
-  text-align: right;
+  padding-top: 2vh;
+  margin-bottom: 0;
+}
+
+.mhic{
+  text-align: center;
+}
+
+.mhic p {
+  position: relative;
+  color: #fff;
+  text-align: center;
+  top: 1vh;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+.logo-mhic {
+  width: 70%;
+}
+
+.logo-barres {
+  position: relative;
+  top: 1vh;
+  max-width: 80px;
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1500px) {
+  .logo-barres {
+    max-width: 60px;
+  }
 }
 
 .other-years {
   text-align: center;
+  padding-top: 8vh;
 }
 
 .other-years a {
-  position: relative;
   color: #fff;
-  text-align: center;
-  top: 9vh;
 }
 
 .bg-red-0 {
