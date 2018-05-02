@@ -1,0 +1,117 @@
+body {
+  font-family: 'Chelsea Market', cursive;
+  font-weight: 400;
+  background-image: url('../imagenes/fondo-pakistan.jpg');
+  background-size: cover;
+  min-height: 100vh;
+}
+
+h1, h2, h3 {
+  font-family: 'Chelsea Market', cursive;
+  font-weight: 400;
+  color: #FFFFFF;
+  background-color: #000000;
+}
+
+p {
+  background-color: #E5EAEE;
+}
+
+.grid-container {
+  min-height: 100vh;
+}
+
+.grid-container {
+  min-height: 100vh;
+}
+
+.quadre-central {
+  background-image: url('../imagenes/ras.JPG');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 6px solid #ffffff;
+  min-height: 70vh;
+  min-width: 70vw;
+}
+
+.quadre-centrale {
+  border: 6px solid #ffffff;
+  min-height: 70vh;
+  min-width: 70vw;
+}
+
+.quadre-central-otros {
+  border: 6px solid #ffffff;
+  min-height: 70vh;
+  min-width: 70vw;
+}
+
+.header {
+  background-color: #ffffff;
+}
+
+.title-bar {
+  background-color: #ffffff;
+  color: #2ba6cb;
+}
+
+.title-bar-title {
+  font-weight: 400;
+}
+
+.title-bar .menu-icon {
+  background-color: #2ba6cb;
+}
+
+.foto {
+  position: absolute;
+  bottom: 280px;
+  right: 200px;
+}
+
+.menu {
+  background-color: #ffffff;
+}
+
+.contingut {
+  min-height: 65vh;
+}
+
+.nom {
+  color: #000000;
+  background-color: #E5EAEE;
+}
+
+.enllac-retorn {
+  position: absolute;
+  left: 2vh;
+  top: 2vh;
+  color: #ffffff;
+}
+
+.titulo {
+  position: relative;
+  top: 20px;
+  left: 300px;
+}
+
+.quadre {
+  border: 6px solid #ffffff;
+  min-height: 70vh;
+  min-width: 70vw;
+}
+
+.contenido {
+  font-size: 2em;
+}
+
+.quadre-centro {
+  border: 6px solid #ffffff;
+  min-height: 70vh;
+  min-width: 70vw;
+}
+
+.descripcion {
+  background-color: #E5EAEE;
+}
